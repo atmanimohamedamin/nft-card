@@ -1,0 +1,134 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card{
+    height: 450px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+}
+
+.divTop{
+    width: 100%;
+    height: 50%;
+}
+
+.divTopLogo{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.TopLogo{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.divLogo2{
+    height: 90%;
+    width: 90%;
+    border-radius: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(178, 100%, 50%);
+    opacity: 0;
+}
+
+.divLogo2:active{
+    opacity: 60%;
+}
+
+
+.divMid{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.middleText{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 20px;
+}
+
+.titleMid{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.titleMid:active{
+    color: hsl(178, 100%, 50%);
+}
+
+.textMid{
+    color: gray;
+    font-size: 18px;
+}
+
+.divStats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+
+}
+
+.leftText{
+    color: hsl(178, 100%, 50%);
+    text-align: center;
+}
+
+.rightText{
+    color: gray;
+    text-align: center;
+}
+
+.divBottom{
+    width: 100%;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.bottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-top: 1px solid white;
+}
+
+.bottomLogo{
+    height: 30px;
+    width: 30px;
+}
+
+.textBottom{
+    color: gray;
+    text-align: center;
+}
+
+span{
+    color: white;
+}
